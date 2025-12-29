@@ -65,7 +65,7 @@
                              -_-_-_ Another site from which I got techniques and, above all, the style I then shaped to make it my own is phrack. \
                                     I recommend it, especially if you're passionate about computer security. phrack is an annual magazine. \
 
-                                    --- [ > URL => < https://phrack.org/ >
+                                    --- [ > URL => < https://phrack.org/ > -_-_-_
 
 
                                                                     
@@ -559,7 +559,21 @@ _--=[ MAIN PAYLOAD RELEASE ]=--_
          merge, publish, distribute, sublicense, and/or sell copies of the Software,
          and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-                + -_
+                -  If you use code from other repositories or projects,
+                   you must explicitly state in both the code and the readme the parts that derive from this repository.
+
+                - If you use this tool in other tools or projects,
+                  please make this repository explicit and revert to the same license present in the repository.
+
+                - The Software is provided "as is", without warranty of any kind. In no event shall the authors be liable for any claim,
+                  damages or other liability arising from the use of the software.
+
+                - You may not impose any further restrictions on the recipients' exercise of the rights granted herein.
+
+                - All modified versions of the Software must carry prominent notices indicating that the files have been modified and the date of each modification.
+                  In the event of alterations to the code,
+                  the managers of the official repositories assume no responsibility for any tampering or damage resulting from the latter.
+
 
 
                ______________________________________
@@ -583,3 +597,4 @@ _--=[ MAIN PAYLOAD RELEASE ]=--_
 
 ```
       
+
