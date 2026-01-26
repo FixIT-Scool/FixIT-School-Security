@@ -186,11 +186,11 @@
                         original and noble meaning: the art of exploring, understanding,
                         and manipulating a system to see how it works.
 
-                       Therefore, you will NOT find instructions on how to circumvent security
-                       here. You will find instructions on how to master the code.
-                       ...although, I might leave you a small gift or clue to
-                       play video games even if you can't, for you in the future,
-                       if this system ever sees the light of day. ;)
+                        Therefore, you will NOT find instructions on how to circumvent security
+                        here. You will find instructions on how to master the code.
+                        ...although, I might leave you a small gift or clue to
+                        play video games even if you can't, for you in the future,
+                        if this system ever sees the light of day. ;)
            
 
        --=[ 2.1: [ How to control access ]
@@ -626,5 +626,6 @@ _--=[ MAIN PAYLOAD RELEASE ]=--_
 
 ```
       
+
 
 
