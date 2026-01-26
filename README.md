@@ -26,7 +26,9 @@
     3.0 - contributors
       3.1 - rules
     4.0 - license
-    5.0 - Creator and other
+      4.1 - AI not admitted
+    5.0 - Doc for code 
+    6.0 - Creator and other
 
 ```
 ---                                                                     ---
@@ -576,6 +578,23 @@ _--=[ MAIN PAYLOAD RELEASE ]=--_
 
 
 
+                --=[ 5.0: Pem => [ AI not admitted ]
+
+                      /!!_ We do not recommend the use of such technologies without human control. _!!\
+
+                      LLMs will not be allowed in this site or in the repositories present in the FixIT-School project,
+                      as there is a license and the code must be preserved and not violated for any reason,
+                      not even by an LLM searching for data.
+
+
+                      --- [ > NOTE:
+
+                            If LLMs are used for code analysis or for reviewing specific areas of the repository,
+                            they are fine as long as their use is not only expressly reported,
+                            but also supervised in every single interaction to prevent errors from being made
+
+
+
                ______________________________________
       ________|            LICENSE fr. BT            |_______
       \       | _ FiXIT-School repo license          |      /
@@ -585,7 +604,17 @@ _--=[ MAIN PAYLOAD RELEASE ]=--_
           ------------------------------------------------
 
 
-   --=[ 5.0 [ Creator and other ]
+
+
+   --=[ 6.0: [ Doc for code ]
+
+         I'm finishing the website for FixIT-School so it will take a few more days to complete both,
+         the documentation and the wiki but the bulk of it has been done,
+         the current site sucks so we will replace it completely
+
+
+
+   --=[ 7.0 [ Creator and other ]
 
            ----( BitCrucio )----
                ::. or BT .::
@@ -597,4 +626,5 @@ _--=[ MAIN PAYLOAD RELEASE ]=--_
 
 ```
       
+
 
