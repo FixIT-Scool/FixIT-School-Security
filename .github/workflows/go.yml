@@ -16,11 +16,18 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    # 1. Configura l'ambiente Go abilitando la cache per velocizzare i build futuri
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
         go-version: '1.20'
+        cache: true # <--- Questo velocizza i passaggi successivi memorizzando i moduli
 
+    # 2. Questo step scarica i moduli mancanti (argon2, bcrypt, ecc.) che bloccavano il build
+    - name: Install dependencies
+      run: go mod download
+
+    # 3. Ora il build passerà senza errori
     - name: Build
       run: go build -v ./...
 
