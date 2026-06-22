@@ -10,8 +10,6 @@ import (
 	"math"
 	mathrand "math/rand"
 	"net"
-	"os"
-	"os/exec"
 	"path/filepath"
 	"runtime"
 	"strings"
