@@ -16,18 +16,17 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    # 1. Configura l'ambiente Go abilitando la cache per velocizzare i build futuri
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.20'
-        cache: true # <--- Questo velocizza i passaggi successivi memorizzando i moduli
+        go-version: '1.18' # Aggiornato a 1.18 come il tuo go.mod
+        cache: true
 
-    # 2. Questo step scarica i moduli mancanti (argon2, bcrypt, ecc.) che bloccavano il build
-    - name: Install dependencies
-      run: go mod download
+    # SOSTITUITO: go mod tidy genera il file go.sum mancante automaticamente
+    - name: Sync and download dependencies
+      run: go mod tidy
 
-    # 3. Ora il build passerà senza errori
+    # Ora il build troverà tutte le voci nel go.sum e passerà senza problemi
     - name: Build
       run: go build -v ./...
 
